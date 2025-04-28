@@ -164,7 +164,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Example prediction (in separate inference script)
+# prediction (in separate inference script)
 def predict_yield(input_data: dict) -> float:
     """Predict yield from input data"""
     model = joblib.load(MODEL_PATH)
